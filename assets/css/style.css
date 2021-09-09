@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    height: 50px;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+nav ul li.active {
+    border: 1px solid black;
+    border-bottom: none;
+}
+
+nav ul li:first-child.active {
+    border: 1px solid black;
+    border-bottom: none;
+    border-left: none;
+}
+
+nav ul li:last-child.active {
+    border: 1px solid black;
+    border-bottom: none;
+    border-right: none;
+}
+
+nav ul li:not(.active):hover {
+    background-color: black;
+}
+
+nav ul li:not(.active):hover a {
+    color: white;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    position: relative;
+    display: none;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.container.active {
+    display: block;
+}
+
+.container canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
