@@ -18,11 +18,51 @@
             top: 0;
             left: 0;
         }
+
+        .container {
+            position: relative;
+            display: none;
+        }
+
+        .container.active {
+            display: block;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+
+        nav ul li {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex: 1;
+        }
+
+        nav ul li a {
+            color: black;
+        }
+
+        nav ul li.active a {
+            color: lightgray;
+        }
     </style>
 </head>
 <body>
-    <div style="position: relative" class="image-container"></div>
+    <nav>
+        <ul>
+            <li> <a href="" class="upload-images">Upload d'images</a> </li>
 
-    <div style="position: relative" class="margin video-container"></div>
+            <li> <a href="" class="stream">Stream</a> </li>
+        </ul>
+    </nav>
+
+    <div class="container image-container"></div>
+
+    <div class="container margin video-container"></div>
 </body>
 </html>
