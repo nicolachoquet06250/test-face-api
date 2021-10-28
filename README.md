@@ -1,7 +1,7 @@
 # test-face-api
 test de l'api de reconnaissence facial face-api.js
 
-[https://nicolachoquet06250.github.io/test-face-api/index.html](## url)
+[## url](https://nicolachoquet06250.github.io/test-face-api/index.html)
 
 ## ANNEXES
  - https://justadudewhohacks.github.io/face-api.js/docs/index.html#other-useful-utility
