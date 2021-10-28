@@ -4,6 +4,7 @@ test de l'api de reconnaissence facial face-api.js
 ## [url](https://nicolachoquet06250.github.io/test-face-api/index.html)
 
 ## ANNEXES
+ - https://www.youtube.com/watch?v=YarlWska9WY
  - https://justadudewhohacks.github.io/face-api.js/docs/index.html#other-useful-utility
  - https://justadudewhohacks.github.io/face-api.js/docs/index.html#getting-started-browser
  - https://justadudewhohacks.github.io/face-api.js/docs/index.html#tutorials
